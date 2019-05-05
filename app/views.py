@@ -1,5 +1,5 @@
 from app import app
-from flask import render_template, redirect, flash, session
+from flask import render_template, flash
 from app.forms import ConverterForm
 from converter import *
 
