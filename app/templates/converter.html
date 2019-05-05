@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="" method="post" name="converter" >
+    {{form.hidden_tag()}}
+    <p>Enter a number: {{form.arab_num(size=80)}}</p>
+    <p><input type="submit" value="convert"></p>
+    <p>Rome number is: {{ rome }}</p>
+
+</form>
+{% endblock %}
